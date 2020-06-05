@@ -13,3 +13,6 @@
 172.22.0.1 - - [31/May/2020:22:44:47 +0900] "GET /phpinfo.php HTTP/1.1" 200 89524 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
 172.22.0.1 - - [31/May/2020:22:44:52 +0900] "GET / HTTP/1.1" 200 150 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
 172.22.0.1 - - [31/May/2020:22:45:11 +0900] "GET / HTTP/1.1" 200 89495 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
+172.22.0.1 - - [31/May/2020:22:59:07 +0900] "GET / HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
+172.22.0.1 - - [31/May/2020:22:59:15 +0900] "GET / HTTP/1.1" 404 27 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
+172.22.0.1 - - [05/Jun/2020:23:40:34 +0900] "GET / HTTP/1.1" 200 2438 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" "-"
