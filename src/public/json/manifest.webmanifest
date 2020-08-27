@@ -1,0 +1,15 @@
+{
+    "name": "My日記 ~一言つぶやこう~",
+    "short_name": "My日記",
+    "satrt_url": ".",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "../images/icon.png",
+            "type": "image/png",
+            "size": "256×256"
+        }
+    ],
+    "background_color": "#19beb2",
+    "description": "A diary app."
+}
