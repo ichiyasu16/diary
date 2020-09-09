@@ -1,7 +1,7 @@
 <?php
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-use App\Http\Models\Diary;;
+use App\Http\Models\Diary;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
@@ -19,7 +19,7 @@ use Illuminate\Support\Str;
 $factory->define(Diary::class, function (Faker $faker) {
     return [
         'category' => 'work',
-        'date' => $faker->DateTime,
+        'date' => $faker->date,
         'text' => $faker->sentence,
         'user_id' => '1'
     ];

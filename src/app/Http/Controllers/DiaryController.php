@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Models\Diary;
 
 class DiaryController extends Controller
 {
@@ -34,7 +35,6 @@ class DiaryController extends Controller
     public function registerConfirm(Request $request)
     {
         $data = $request->input();
-        dd($data);
         return view('diary.registerConfirm', $data);
     }
 }

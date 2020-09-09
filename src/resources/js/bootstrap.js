@@ -1,5 +1,9 @@
 window._ = require('lodash');
 
+require('jquery-ui/ui/widgets/dialog.js');
+require('jquery-ui/ui/widgets/sortable.js');
+require('jquery-ui/ui/widgets/tooltip.js');
+require('jquery-ui/ui/i18n/datepicker-ja.js'); 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
  * for JavaScript based Bootstrap features such as modals and tabs. This

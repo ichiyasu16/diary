@@ -4,3 +4,343 @@
 [05-Jun-2020 15:41:01 UTC] PHP Fatal error:  Cannot declare class CreateUsersTable, because the name is already in use in /work/database/migrations/2014_10_12_000000_create_users_table 2.php on line 36
 [05-Jun-2020 15:41:20 UTC] PHP Fatal error:  Cannot declare class CreateUsersTable, because the name is already in use in /work/database/migrations/2014_10_12_000000_create_users_table 2.php on line 36
 [05-Jun-2020 15:41:54 UTC] PHP Fatal error:  Cannot declare class CreateUsersTable, because the name is already in use in /work/database/migrations/2014_10_12_000000_create_users_table 2.php on line 36
+[06-Sep-2020 12:14:33 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:14:33 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:14:39 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:14:39 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:15:12 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:15:12 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:15:18 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:15:18 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:24:43 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:24:43 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:07 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:07 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:16 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:16 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:19 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:19 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:41 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:25:41 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:26:38 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:26:38 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:26:43 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:26:43 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:27:33 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:27:33 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:27:38 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:27:38 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:30:14 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:30:14 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:37:42 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:37:42 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:37:48 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 12:37:48 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 13:04:05 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444
+[06-Sep-2020 13:04:05 UTC] PHP Fatal error:  Uncaught ErrorException: include(/work/vendor/composer/../../app/Exceptions/Handler 2.php): failed to open stream: No such file or directory in /work/vendor/composer/ClassLoader.php:444
+Stack trace:
+#0 /work/vendor/composer/ClassLoader.php(444): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'include(/work/v...', '/work/vendor/co...', 444, Array)
+#1 /work/vendor/composer/ClassLoader.php(444): include()
+#2 /work/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/work/vendor/co...')
+#3 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Exceptions\\...')
+#4 [internal function]: spl_autoload_call('App\\Exceptions\\...')
+#5 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(803): ReflectionClass->__construct('App\\Exceptions\\...')
+#6 /work/vendor/laravel/framework/src/Illuminate/Container/Container.php(681): Illuminate\Container\Container->build('App\\Exceptions\\...')
+#7 /work/vendor/laravel/framework/src/Illuminate/Foundation/Application.p in /work/vendor/composer/ClassLoader.php on line 444

@@ -1,22 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <h3 class="title">My日記</h3>
-        <p>
-            本日はどんな一日でしたか？<br>
-            今日あった事を書いてみてください。
-        </p>
-        <div>
+    <div class="card card-default">
+        <div class="card-header">
+            <h3 class="title">My日記</h3>
+        </div>
+        <div class="card-body">
             <form action="{{ route('diary.register.confirm') }}" method="POST">
                 @csrf
                 <div>
-                    <label for="date">日付　：　</label>
-                    <input type="text" name="date">
+                    <label for="date" class="col-md-2">日付　：　</label>
+                    <input type="text" name="date" class="datepicker col-md-5"/>
                 </div>
                 <div>
-                    <label for="category">カテゴリ　：　</label>
-                    <select name="category">
+                    <label for="category" class="col-md-2">カテゴリ　：　</label>
+                    <select name="category" class="col-md-5">
                         <option value=""></option>
                         <option value="work">仕事</option>
                         <option value="play">遊び</option>
@@ -25,6 +23,10 @@
                     </select>
                 </div>
                 <div>
+                    <p>
+                        本日はどんな一日でしたか？<br>
+                        今日あった事を書いてみてください。
+                    </p>
                     <textarea class="diaryText" name="diary_text"></textarea>
                 </div>
                 <input type="submit" class="btn btn-info" value="登録">
@@ -33,19 +35,19 @@
     </div>
 @endsection
 
+@section('css')
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+@endsection
+
 @section('script')
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-        $(function() {
-            $('input[name="date"]').daterangepicker({
-                singleDatePicker: true,
-                showDropdowns: true,
-                minYear: 2000,
-                maxYear: parseInt(moment().format('YYYY'),10)
-            }, function(start) {
-                $('input[name="date"]').value = start;
+        $( function() {
+            $('.datepicker').datepicker({
+                changeMonth: true,
+                changeYear: true,
+                showAnim: 'slideDown'
             });
         });
     </script>
