@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Models\Diary;
+use App\Http\Requests\DiaryRequest;
 
 class DiaryController extends Controller
 {
@@ -24,7 +25,11 @@ class DiaryController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $data = [
+            'diaries' => Diary::all()
+        ];
+
+        return view('diary.list', $data);
     }
 
     public function register()
@@ -32,7 +37,7 @@ class DiaryController extends Controller
         return view('diary.register');
     }
 
-    public function registerConfirm(Request $request)
+    public function registerConfirm(DiaryRequest $request)
     {
         $data = $request->input();
         return view('diary.registerConfirm', $data);

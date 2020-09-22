@@ -19,5 +19,9 @@
                 <p>{{ $diary_text }}</p>
             </div>
         </div>
+        <div class="card-footer">
+            <input type="button" class="btn btn-default" value="戻る">
+            <input type="button" class="btn btn-success" value="完了">
+        </div>
     </div>
 @endsection

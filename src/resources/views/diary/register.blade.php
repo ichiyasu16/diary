@@ -11,6 +11,11 @@
                 <div>
                     <label for="date" class="col-md-2">日付　：　</label>
                     <input type="text" name="date" class="datepicker col-md-5"/>
+                    @if ($errors->has('date'))
+                        <div class="text-danger">
+                            {{ $errors->first('date') }}
+                        </div>
+                    @endif
                 </div>
                 <div>
                     <label for="category" class="col-md-2">カテゴリ　：　</label>
@@ -29,7 +34,7 @@
                     </p>
                     <textarea class="diaryText" name="diary_text"></textarea>
                 </div>
-                <input type="submit" class="btn btn-info" value="登録">
+                <input type="submit" class="btn btn-info" value="登録確認画面へ">
             </form>
         </div>
     </div>
