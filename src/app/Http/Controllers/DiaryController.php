@@ -40,6 +40,19 @@ class DiaryController extends Controller
     public function registerConfirm(DiaryRequest $request)
     {
         $data = $request->input();
+        $request->session()->put('diaryRequest', $data);
         return view('diary.registerConfirm', $data);
+    }
+
+    public function store(Request $request)
+    {
+        $data = $request->session()->get('diaryRequest');
+        $diary = new Diary;
+        $data['text'] = $data['diary_text'];
+        $data['user_id'] = '1';
+        $diary->fill($data);
+        $diary->save();
+
+        return redirect()->route('diary.index');
     }
 }

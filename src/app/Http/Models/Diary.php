@@ -17,7 +17,8 @@ class Diary extends Authenticatable
     protected $fillable = [
         'category',
         'date',
-        'text'
+        'text',
+        'user_id'
     ];
 
     /**

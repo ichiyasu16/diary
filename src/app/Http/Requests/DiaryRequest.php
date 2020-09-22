@@ -26,7 +26,7 @@ class DiaryRequest extends FormRequest
         return [
             'category' => 'required',
             'date' => 'required|date',
-            'text' => 'required|max:1000'
+            'diary_text' => 'required|max:1000'
         ];
     }
 
@@ -36,8 +36,8 @@ class DiaryRequest extends FormRequest
             'category.required' => 'カテゴリを選択してください',
             'date.required' => '日付を入力してください',
             'date.date' => '日付情報が不正です',
-            'text.required' => '日記内容を入力してください',
-            'text.max' => '日記内容は:max文字以下で入力してください'
+            'diary_text.required' => '日記内容を入力してください',
+            'diary_text.max' => '日記内容は:max文字以下で入力してください'
         ];
     }
 }

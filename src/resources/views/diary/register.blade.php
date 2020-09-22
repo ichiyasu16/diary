@@ -26,6 +26,11 @@
                         <option value="sightseeing">観光</option>
                         <option value="other">その他</option>
                     </select>
+                    @if ($errors->has('category'))
+                        <div class="text-danger">
+                            {{ $errors->first('category') }}
+                        </div>
+                    @endif
                 </div>
                 <div>
                     <p>
@@ -33,6 +38,11 @@
                         今日あった事を書いてみてください。
                     </p>
                     <textarea class="diaryText" name="diary_text"></textarea>
+                    @if ($errors->has('diary_text'))
+                        <div class="text-danger">
+                            {{ $errors->first('diary_text') }}
+                        </div>
+                    @endif
                 </div>
                 <input type="submit" class="btn btn-info" value="登録確認画面へ">
             </form>
@@ -52,7 +62,8 @@
             $('.datepicker').datepicker({
                 changeMonth: true,
                 changeYear: true,
-                showAnim: 'slideDown'
+                showAnim: 'slideDown',
+                dateFormat: 'yy-mm-dd'
             });
         });
     </script>

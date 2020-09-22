@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/diary/register', 'DiaryController@register')->name('diary.register');
 Route::post('/diary/register', 'DiaryController@registerConfirm')->name('diary.register.confirm');
 Route::get('/diary', 'DiaryController@index')->name('diary.index');
+Route::post('/diary', 'DiaryController@store')->name('diary.store');
 
 Auth::routes();
 
