@@ -55,4 +55,42 @@ class DiaryController extends Controller
 
         return redirect()->route('diary.index');
     }
+
+    public function edit(Request $request, $id)
+    {
+        $data = [
+            'diary' => Diary::find($id)
+        ];
+        return view('diary.edit', $data);
+    }
+
+    public function editConfirm(DiaryRequest $request, $id)
+    {
+        $data = $request->input();
+        $data['id'] = $id;
+        $request->session()->put('diaryRequest', $data);
+        return view('diary.editConfirm', $data);
+    }
+
+    public function update(Request $request)
+    {
+        $data = $request->session()->get('diaryRequest');
+        $data['text'] = $data['diary_text'];
+        $data['user_id'] = '1';
+        $diary = Diary::find($data['id']);
+        $diary->fill($data);
+        $diary->save();
+        return redirect()->route('diary.index');
+    }
+
+    public function destroy(Request $request, $id)
+    {
+        $diary = Diary::find($id);
+
+        if ($diary) {
+            $diary->delete();
+        }
+        
+        return redirect()->route('diary.index');
+    }
 }
